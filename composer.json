@@ -1,0 +1,29 @@
+{
+	"name": "abystry/presenter",
+	"description": "Simple View Presenters",
+	"keywords": [
+		"presenter",
+		"view",
+		"laravel"
+	],
+	"authors": [
+		{
+			"name": "Aliaksandr Bystry",
+			"email": "flashwadexxx1990@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "5.*"
+	},
+	"require-dev": {
+		"phpspec/phpspec": "~2.0",
+		"mockery/mockery": "^0.9.9"
+	},
+	"autoload": {
+		"psr-0": {
+			"ABystry\\Presenter": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
